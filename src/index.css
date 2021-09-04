@@ -1,0 +1,24 @@
+body {
+    font-family: system-ui;
+}
+
+.rounded-circle {
+    width: 4rem;
+    height: 4rem;
+}
+
+.zero {
+    width: 9rem;
+    height: 4rem;
+}
+
+.formula, .computation {
+    border-width: 0.1rem;
+	border-color: #00a3d9;
+	border-style: solid;	
+	height: 3rem;
+    border-radius: 1rem;
+}
+.formula > div, .computation > div {
+    padding-right: 0.5rem;
+}

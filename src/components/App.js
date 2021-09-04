@@ -30,6 +30,7 @@ class Calculator extends React.Component {
         else if (event === '=' && isNaN(this.state.lastEle)) return ;
         else if (event === '=') {
             let result = this.calculation(this.state.formula);
+            result = !isFinite(result) ? 'Error' : result;
             temp = '';
             this.setState({
                 answer: result,
